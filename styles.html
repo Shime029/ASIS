@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Personal Portfolio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+    
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- ===========================favicons======================= -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logoH.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logoH.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logoH.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- =========================preloader========================= -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- =========================page wrap========================= -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- =========================header========================= -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/logoR.png" alt="Homepage">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> 
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">About Me</a></li>
+                        <li><a class="smoothscroll" href="#works">Projects</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> 
+                </nav> 
+            </div>
+        </header>
+
+
+        <!-- =========================intro========================= -->
+        <section id="intro" class="s-intro target-section">
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+                    <div class="s-intro__content-text">
+                        <div class="s-intro__content-pretitle text-pretitle">Introducing</div><br>
+                        <h2 class="s-intro__content-title"> Jacqueline Asis </h2>               
+                        <div> Student | Web Designer </div>             
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">More About Me</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Socials</a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- Resume Button -->
+            <div class="s-intro__btn-download">
+                <a class="btn btn--stroke" href="#0" id="resumeBtn">View Resume</a>
+            </div>
+
+            <!-- Resume Popup Modal -->
+            <div id="resumeModal" class="modal">
+                <span class="close" id="closeModal">&times;</span>
+                <img src="images/pictures/Resume_Pic.png" alt="Resume Preview" class="resume-preview">
+                <a href="images/pictures/Resume_Asis.pdf" download class="download-btn">Download PDF</a>
+            </div>
+
+            <ul class="s-intro__social social-list">
+                <li>
+                        <a href="https://www.facebook.com/jacqueline.asis.029/" target="_blank" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:-ms-filter;">
+                                <path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/jaja_asis_/" target="_blank" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:-ms-filter;">
+                                <path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle>
+                                <path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@Jaja_asis" target="_blank" aria-label="YouTube">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);transform:-ms-filter;">
+                                <path d="M19.615 3.184A3.006 3.006 0 0 0 17.57 2.4C15.9 2 12 2 12 2s-3.9 0-5.57.4a3.006 3.006 0 0 0-2.045.784A3.006 3.006 0 0 0 3.4 5.43C3 7.1 3 10.999 3 10.999s0 3.9.4 5.57a3.006 3.006 0 0 0 .784 2.045A3.006 3.006 0 0 0 6.43 20.6c1.67.4 5.57.4 5.57.4s3.9 0 5.57-.4a3.006 3.006 0 0 0 2.045-.784A3.006 3.006 0 0 0 20.6 16.57C21 14.9 21 11.001 21 11.001s0-3.9-.4-5.57a3.006 3.006 0 0 0-.785-2.047zM10 15.5v-7l6 3.5-6 3.5z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">YouTube</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:jacquelineasis29@gmail.com" aria-label="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);;transform:-ms-filter;">
+                                <path d="M12 13.065 2 6.5V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6.5l-10 6.565z"/>
+                                <path d="M22 6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2l10 6.5L22 6z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">Email</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Shime029" target="_blank" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);transform:-ms-filter;">
+                                <path d="M12 .5C5.73.5.5 5.73.5 12.02c0 5.1 3.29 9.42 7.86 10.95.58.11.79-.25.79-.55 0-.27-.01-1.14-.02-2.07-3.2.7-3.88-1.54-3.88-1.54-.53-1.35-1.29-1.71-1.29-1.71-1.06-.73.08-.72.08-.72 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.1-.12-.3-.52-1.5.11-3.12 0 0 .97-.31 3.18 1.18a10.9 10.9 0 0 1 5.8 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.62.23 2.82.11 3.12.74.81 1.19 1.84 1.19 3.1 0 4.43-2.68 5.41-5.24 5.69.42.36.8 1.09.8 2.2 0 1.59-.01 2.87-.01 3.26 0 .3.21.67.8.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://app.netlify.com/teams/jacquelineasis29/overview" target="_blank" aria-label="Netlify">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256" style="fill:rgba(0,0,0,1);transform:-ms-filter;">
+                                <path d="M128 0L28 128l100 128 100-128L128 0zm54.5 122.9L128 46l-54.5 76.9L128 210l54.5-87.1z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">Netlify</span>
+                        </a>
+                    </li>
+            </ul>
+            
+
+            <div class="s-intro__content-media">                               
+                <img src="images/pictures/me_me.jpg" srcset="images/pictures/me_me.jpg 1x, images/pictures/me_me.jpg 2x" alt="">
+            </div> 
+
+            <!-- Scroll Down -->
+            <div class="s-intro__scroll-down">
+                <a href="#about" class="smoothscroll">
+                    <div class="scroll-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;">
+                            <path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </div>
+                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+                </a>
+            </div> 
+
+        </section> 
+
+
+        <!-- =========================about========================= -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">About Me.</h2>
+                    </div>
+
+                    <p class="attention-getter">
+                        I am Jacqueline Alyzza G. Asis a Third-year student of Bachelor of Science in Information Systems (BSIS) at Camarines Norte State College..
+                    </p>
+
+                    <p class="attention-getter">
+                        Passionate about technology and its applications in solving real-world problems. My academic journey has equipped me with foundational knowledge in systems analysis, database management, and programming, and I am eager to expand my expertise in these areas. I am driven to apply my skills in collaborative and innovative projects that contribute to impactful technological solutions.
+                    </p>
+
+                    <div class="grid-list-items s-about__blocks">
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Projects</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    R&S Trading
+                                    <span>2023 — 2024</span>                                       
+                                </li>
+                                <li>
+                                    FitPulse
+                                    <span>2024 — 2025</span>
+                                </li>
+                                <li>
+                                    Healthier You
+                                    <span>2024 — 2025</span>
+                                </li>
+                                <li>
+                                    iTour Mercedes
+                                    <span>2025 — Present</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Skills & Tools</h4>
+                            
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="https://www.w3schools.com/html/html_css.asp">
+                                        HTML & CSS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.w3schools.com/java/default.asp">
+                                        Java
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.w3schools.com/js/default.asp">
+                                        JavaScript
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://developer.android.com/studio">
+                                        Android Studio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://apps.microsoft.com/detail/xp9khm4bk9fz7q?launch=true&mode=full&hl=en-us&gl=ph&ocid=bingwebsearch">
+                                        Visual Studio Code
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.figma.com/files/team/1424960429633626738/recents-and-sharing?fuid=1424960428042698405">
+                                        Figma
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Portfolio Versions</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="https://firstportfolioo.netlify.app/">
+                                    First Year
+                                    <span>Html Only</span>
+                                </a></li>
+                                <li>
+                                    <a href="https://asiss.netlify.app/">
+                                    Second Year
+                                    <span>Html & CSS</span>
+                                </a></li>
+                            </ul>
+                        </div> 
+
+                    </div>
+
+                </div> 
+            </div>
+            
+        </section> 
+
+
+        <!-- ========================works========================== -->
+        <section id="works" class="s-works target-section">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="02">
+                        <h2 class="text-display-title">Previous Projects.</h2>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="row folio-entries">
+
+                <div class="column entry">
+                    <a href="images/projects/R&S website 1st_Y.png" class="entry__link glightbox" data-glightbox="title: R&S Trading; description: .entry__desc-01">
+                        <div class="entry__thumb">
+                            <img src="images/projects/R&S website 1st_Y.png" srcset="images/projects/R&S website 1st_Y.png 1x, images/projects/R&S website 1st_Y.png 2x" alt="R&S website">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">R&S Trading</h4>
+                            <div class="entry__cat">2024</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-01">
+                        <p>
+                        This website represents R&S Trading, a trading supply store specializing in electronics. 
+                        It serves as an online platform where customers can explore and view featured products, 
+                        learn about the store’s offerings, and discover the latest electronic items available for purchase. 
+                        The site highlights product details, images, and categories, 
+                        making it easy for visitors to find the electronics they need.<br>
+                        <a href="https://rnstrading.netlify.app/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/projects/FitPaulse App 2nd_Y.png" class="entry__link glightbox" data-glightbox="title: FitPaulse; description: .entry__desc-02">
+                        <div class="entry__thumb">
+                            <img src="images/projects/FitPaulse App 2nd_Y.png" srcset="images/projects/FitPaulse App 2nd_Y.png 1x, images/projects/FitPaulse App 2nd_Y.png 2x" alt="FitPaulse App">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">FitPaulse</h4>
+                            <div class="entry__cat">2025</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-02">
+                        <p>
+                        FitPaulse is your ultimate fitness companion — a smart, easy-to-use app 
+                        designed to keep you motivated and on track toward your health goals.
+                        It suggests personalized exercises tailored to your fitness level, 
+                        provides an integrated timer for your workouts, and tracks your progress over time. 
+                        Whether you’re a beginner or a seasoned athlete, FitPaulse helps you stay consistent, 
+                        improve performance, and celebrate every milestone on your fitness journey. 
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/projects/HY website 2nd_Y.png" class="entry__link glightbox" data-glightbox="title: Healthier You; description: .entry__desc-03">
+                        <div class="entry__thumb">
+                            <img src="images/projects/HY website 2nd_Y.png" srcset="images/projects/HY website 2nd_Y.png 1x, images/projects/HY website 2nd_Y.png 2x" alt="HY website">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Healthier You</h4>
+                            <div class="entry__cat">2025</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-03">
+                        <p>
+                        The official website of Macy Lopes, a professional nutritionist dedicated 
+                        to helping individuals achieve a balanced and healthy lifestyle. 
+                        The site offers expert guidance on diet, nutrition, and wellness, 
+                        featuring practical tips, personalized nutrition plans, 
+                        and valuable insights to support your journey toward better health. 
+                        Whether you’re looking to improve your eating habits, boost your energy, 
+                        or learn more about the science of nutrition, 
+                        this website is your trusted resource for a healthier, happier you.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+                
+                <div class="column entry">
+                    <a href="images/projects/MyPortfolio2.0.png" class="entry__link glightbox" data-glightbox="title: My Personal Portfolio 2.0; description: .entry__desc-04">
+                        <div class="entry__thumb">
+                            <img src="images/projects/MyPortfolio2.0.png" srcset="images/projects/MyPortfolio2.0.png 1x, images/projects/MyPortfolio2.0.png 2x" alt="HY website">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">My Personal Portfolio 2.0</h4>
+                            <div class="entry__cat">2024</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-04">
+                        <p>
+                        My second try of making a Portfolio and experimenting in CSS <br>
+                        <a href="https://asiss.netlify.app/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+            </div> <!-- folio entries -->
+
+        </section> <!-- end s-works --> 
+
+<br><br><br><br><br><br><br>
+        <!-- =========================footer========================= -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" data-num="03">
+                        <h2 class="text-display-title">My Socials.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-footer__content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                    <p class="attention-getter">
+                    Hi! I’m Jacqueline Asis, and I’m always happy to connect. 
+                    You can find me on my social media platforms and reach out to me directly through Facebook for messages or inquiries.
+                    </p>               
+                </div> <!-- end section-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+                    <div class="row">
+                        <div class="column xl-4 lg-5 md-6 tab-12">
+                            <h5>Follow Me</h5>
+                            <ul class="link-list">
+                                <li><a href="https://www.facebook.com/jacqueline.asis.029">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/jaja_asis_/">Instagram</a></li>
+                                <li><a href="https://www.youtube.com/@Jaja_asis">YouTube</a></li>
+                                <li><a href="mailto:jacquelineasis29@gmail.com">Email</a></li>
+                            </ul>
+                        </div>
+                        <div class="column xl-6 md-6 tab-12">
+                            <h5>Contact Me</h5>
+                            <ul class="link-list">
+                                <li><a href="mailto:jacquelineasis29@gmail.com">jacquelineasis29@gmail.com</a></li>
+                                <li>+6347 507 3156</li>
+                            </ul> 
+                        </div>
+                    </div>                    
+                </div> 
+
+            </div>
+
+
+            <div class="row s-footer__buttons">
+
+                <!--
+                <div class="column xl-6 tab-12">
+                    <a href="mailto:#0" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
+                </div>
+                -->
+
+                <div class="column xl-6 tab-12">                    
+                    <a href="https://www.facebook.com/jacqueline.asis.029" class="btn btn--stroke btn--large u-fullwidth">Message Me</a>
+                </div>
+            
+            </div>              
+            
+            <div class="row s-footer__bottom">
+                
+                <ul class="s-footer__social social-list">
+                    <li>
+                        <a href="https://www.facebook.com/jacqueline.asis.029/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:-ms-filter;">
+                                    <path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"/>
+                                </svg>
+                                <span class="u-screen-reader-text">Facebook</span>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/jaja_asis_/" target="_blank" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:-ms-filter;">
+                                <path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle>
+                                <path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@Jaja_asis" target="_blank" aria-label="YouTube">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);transform:-ms-filter;">
+                                <path d="M19.615 3.184A3.006 3.006 0 0 0 17.57 2.4C15.9 2 12 2 12 2s-3.9 0-5.57.4a3.006 3.006 0 0 0-2.045.784A3.006 3.006 0 0 0 3.4 5.43C3 7.1 3 10.999 3 10.999s0 3.9.4 5.57a3.006 3.006 0 0 0 .784 2.045A3.006 3.006 0 0 0 6.43 20.6c1.67.4 5.57.4 5.57.4s3.9 0 5.57-.4a3.006 3.006 0 0 0 2.045-.784A3.006 3.006 0 0 0 20.6 16.57C21 14.9 21 11.001 21 11.001s0-3.9-.4-5.57a3.006 3.006 0 0 0-.785-2.047zM10 15.5v-7l6 3.5-6 3.5z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">YouTube</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:jacquelineasis29@gmail.com" aria-label="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);;transform:-ms-filter;">
+                                <path d="M12 13.065 2 6.5V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6.5l-10 6.565z"/>
+                                <path d="M22 6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2l10 6.5L22 6z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">Email</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Shime029" target="_blank" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);transform:-ms-filter;">
+                                <path d="M12 .5C5.73.5.5 5.73.5 12.02c0 5.1 3.29 9.42 7.86 10.95.58.11.79-.25.79-.55 0-.27-.01-1.14-.02-2.07-3.2.7-3.88-1.54-3.88-1.54-.53-1.35-1.29-1.71-1.29-1.71-1.06-.73.08-.72.08-.72 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.1-.12-.3-.52-1.5.11-3.12 0 0 .97-.31 3.18 1.18a10.9 10.9 0 0 1 5.8 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.62.23 2.82.11 3.12.74.81 1.19 1.84 1.19 3.1 0 4.43-2.68 5.41-5.24 5.69.42.36.8 1.09.8 2.2 0 1.59-.01 2.87-.01 3.26 0 .3.21.67.8.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://app.netlify.com/teams/jacquelineasis29/overview" target="_blank" aria-label="Netlify">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256" style="fill:rgba(0,0,0,1);transform:-ms-filter;">
+                                <path d="M128 0L28 128l100 128 100-128L128 0zm54.5 122.9L128 46l-54.5 76.9L128 210l54.5-87.1z"/>
+                            </svg>
+                            <span class="u-screen-reader-text">Netlify</span>
+                        </a>
+                    </li>
+                </ul>
+
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span> © Jacqueline Asis | 2025 </span>
+                    </p>
+                </div>
+
+            </div>         
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>Back To Top</span>   
+            </div> 
+            
+        </footer> 
+
+    </div>
+
+
+    <!-- =========================Java Script========================= -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
